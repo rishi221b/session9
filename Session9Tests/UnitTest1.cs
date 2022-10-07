@@ -34,5 +34,11 @@ namespace Session9Tests
             var items = Assert.IsType<List<Books>>(okResult.Value);
             Assert.True(items.Count > 0);
         }
+        [Fact]
+        public void Test3()
+        {
+            var result = 2 + 3;
+            Assert.Equal(5, result);
+        }
     }
 }
