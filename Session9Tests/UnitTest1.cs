@@ -38,7 +38,7 @@ namespace Session9Tests
         public void Test3()
         {
             var result = 2 + 3;
-            Assert.Equal(7, result)
+            Assert.Equal(7, result);
         }
     }
 }
